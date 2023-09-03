@@ -1,0 +1,83 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CarrinhoCompra",
+            "request": "launch",
+            "mainClass": "list.OperacaoBasica.CarrinhoCompra",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        },
+        {
+            "type": "java",
+            "name": "ListaTarefa",
+            "request": "launch",
+            "mainClass": "list.OperacaoBasica.ListaTarefa",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        },
+        {
+            "type": "java",
+            "name": "OrdenacaoNumeros",
+            "request": "launch",
+            "mainClass": "list.Ordenacao.OrdenacaoNumeros",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        },
+        {
+            "type": "java",
+            "name": "OrdenacaoPessoas",
+            "request": "launch",
+            "mainClass": "list.Ordenacao.OrdenacaoPessoas",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        },
+        {
+            "type": "java",
+            "name": "CatalogoLivros",
+            "request": "launch",
+            "mainClass": "list.Pesquisa.CatalogoLivros",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        },
+        {
+            "type": "java",
+            "name": "SomaNumeros",
+            "request": "launch",
+            "mainClass": "list.Pesquisa.SomaNumeros",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        }
+    ]
+}
