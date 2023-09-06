@@ -68,7 +68,7 @@ public class SomaNumeros {
         somaNumeros.adicionarNumero(5);
         somaNumeros.adicionarNumero(2);
         somaNumeros.adicionarNumero(1);
-        somaNumeros.adicionarNumero(-2);
+        somaNumeros.adicionarNumero(0);
         somaNumeros.adicionarNumero(10);
 
         System.out.println("Números adicionados:");

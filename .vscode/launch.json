@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "ConjuntoPalavrasUnicas",
+            "request": "launch",
+            "mainClass": "set.OperacoesBasicas.ConjuntoPalavrasUnicas",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        },
+        {
+            "type": "java",
+            "name": "ConjuntoConvidados",
+            "request": "launch",
+            "mainClass": "set.OperacoesBasicas.ConjuntoConvidados",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
