@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CadastroProdutos",
+            "request": "launch",
+            "mainClass": "set.Ordenacao.CadastroProdutos",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        },
+        {
+            "type": "java",
+            "name": "AgendaContatos",
+            "request": "launch",
+            "mainClass": "set.Pesquisa.AgendaContatos",
+            "projectName": "collections-java-api-2023_8fb2e15c"
+        },
+        {
+            "type": "java",
             "name": "ConjuntoPalavrasUnicas",
             "request": "launch",
             "mainClass": "set.OperacoesBasicas.ConjuntoPalavrasUnicas",
